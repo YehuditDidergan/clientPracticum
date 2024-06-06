@@ -1,0 +1,112 @@
+
+body {
+  direction: rtl; 
+  text-align: center; 
+}
+
+.flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.modal-dialog {
+  max-width: 695px; /* רוחב מרבי */
+  width: 80%; /* רוחב כאשר התוכן יהיה מעל לרוחב המרבי */
+}
+
+.input-label {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px; /* רווח בין הכותרת לאינפוט */
+}
+
+/* סגנון נוסף לרדיו בוטן */
+.input-label input[type="radio"] {
+  margin-right: 5px; /* רווח בין הרדיו בוטן לתווית */
+}
+
+.form-inputs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.input-group {
+  flex: 50%; /* האלמנט יקבל 50% מהרוחב בכל שורה */
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.input-group label {
+  text-align: center;
+}
+
+.form-control {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.input-group input[type="radio"] {
+  margin-right: 5px;
+}
+/* alert */
+.p-0{
+  position: fixed; /* קביעת מיקום קבוע  */
+  bottom: 20px; /* מיקום בתחתית הדף */
+  left: 20px; /* מיקום בצד שמאל */
+  z-index: 100; /* הצגת מעל כל שאר האלמנטים */
+}
+
+
+/* אנימציה */
+
+/* .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.animated-box {
+    width: 100%;
+    height: 100%;
+    background-color: #4fc3f7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s;
+}
+
+.hidden-content {
+    width: 100%;
+    height: 100%;
+    background-color: #c4eafc;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(100%);
+    transition: transform 0.5s;
+}
+
+.container:hover .animated-box {
+    transform: translateY(-100%);
+} */
+
+
